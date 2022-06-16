@@ -1,6 +1,6 @@
 #!/bin/sh
-apt update -y
-apt install -y docker docker-compose git wget
+apt -y update && upgrade
+apt install -y docker docker-compose git
 git clone https://github.com/7ric/Photoblog.git /Photoblog
 sed -i 's/localhost/db/g' /Photoblog/classes/db.php
 wget -nc https://raw.githubusercontent.com/ThomasCPNV/VIR2/main/docker-compose.yaml
