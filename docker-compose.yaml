@@ -4,7 +4,6 @@ services:
     image: php:5-apache
     ports:
       - "80:80"
-      - "443:443"
     volumes:
       - /Photoblog:/var/www/html
   db:
@@ -12,7 +11,7 @@ services:
     ports:
       - "3306:3306"
     environment:
-      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=Pa$$w0rd
       - MYSQL_USER=pentesterlab
       - MYSQL_PASSWORD=pentesterlab
       - MYSQL_DATABASE=photoblog
