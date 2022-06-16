@@ -4,6 +4,7 @@ services:
     image: php:5-apache
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - /Photoblog:/var/www/html
   db:
