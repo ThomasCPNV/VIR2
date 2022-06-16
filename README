@@ -1,0 +1,3 @@
+Exécutez le script ci-dessous sur la machine cible.
+
+wget -qO- https://raw.githubusercontent.com/ThomasCPNV/VIR2/script.sh | sudo sh
