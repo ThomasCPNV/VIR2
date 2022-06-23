@@ -5,3 +5,9 @@ lien fichier ova : https://cpnv1-my.sharepoint.com/:f:/g/personal/thomas_huguet_
 Puis, sur cette même machine, exécutez le script ci-dessous :
 
 wget -qO- https://raw.githubusercontent.com/ThomasCPNV/VIR2/main/script.sh | sudo sh
+
+Pour démarrer le serveur web :
+sudo docker-compose up -d  
+
+Pour arrêter le serveur web :
+sudo docker-compose stop 
