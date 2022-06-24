@@ -2,7 +2,7 @@ Importez la machine kali sur un hyperviseur :
 
 lien fichier ova : https://cpnv1-my.sharepoint.com/:f:/g/personal/thomas_huguet_cpnv_ch/Egq549HMYyNGuxeg3rNbsGQBxbTrLq3HyQHS8pcXz0m1kw
 
-Puis, sur cette même machine, exécutez le script ci-dessous :
+Puis, sur cette machine, exécutez le script ci-dessous :
 
 wget -qO- https://raw.githubusercontent.com/ThomasCPNV/VIR2/main/script.sh | sudo sh
 
