@@ -7,6 +7,7 @@ services:
       - "443:443"
     volumes:
       - /Photoblog:/var/www/html
+    restart: always
   db:
     image: mysql:5
     ports:
@@ -18,3 +19,4 @@ services:
       - MYSQL_DATABASE=photoblog
     volumes:
       - /Photoblog/photoblog.sql:/docker-entrypoint-initdb.d/photoblog.sql
+    restart: always
